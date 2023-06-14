@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Fale Conosco</h1>
+      </header>
+      <form action="">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Primeiro nome</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              name="firstname"
+              id="fname"
+              required="true"
+              placeholder="Digite seu nome"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Último nome</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              name="lastname"
+              id="lname"
+              required="true"
+              placeholder="Digite seu último nome"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="email">Email</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required="true"
+              placeholder="Digite email"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="pais">País</label>
+          </div>
+          <div class="col-75">
+            <!-- <input type="s" name="pais" id="pais" required="true" placeholder=""/> -->
+            <select name="pais" id="pais">
+              <option value="australia">Australia</option>
+              <option value="brasil">Brasil</option>
+              <option value="usa">USA</option>
+              <option value="argentina">Argentina</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="assunto">Assunto</label>
+          </div>
+          <div class="col-75">
+            <!-- <input type="" name="pais" id="assunto" required="true" placeholder="Escreva aqui"/> -->
+            <textarea
+              name="assunto"
+              id="assunto"
+              cols="5"
+              rows="5"
+              placeholder="Escreva aqui"
+            ></textarea>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <input class="bttn" type="submit" value="Enviar" />
+        </div>
+      </form>
+      <footer>
+        <p>
+          Em caso de dúvidas em contato:
+          <a href="tel:+553536228400">(35)36228400</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
